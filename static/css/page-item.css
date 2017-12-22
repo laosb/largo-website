@@ -1,0 +1,9 @@
+.page-item {
+  display: block;
+  padding-top: calc(2 * var(--align-top));
+  margin: 0 calc((100vw - var(--picture-width)) / 2);
+}
+.page-item.page-item-first {
+  padding-top: calc(var(--align-top) - 5vh);
+  margin-top: 5vh;
+}

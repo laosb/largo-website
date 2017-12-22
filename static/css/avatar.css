@@ -1,0 +1,7 @@
+.page-item .avatar {
+  position: fixed;
+  width: var(--avatar-size);
+  height: var(--avatar-size);
+  left: calc((100vw - var(--picture-width)) / 4 - (var(--avatar-size) / 2));
+  top: var(--align-top);
+}

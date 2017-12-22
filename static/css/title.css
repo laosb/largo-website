@@ -1,0 +1,19 @@
+.page-item .title {
+  position: fixed;
+  font-size: var(--basic-size);
+  font-family: Roboto, sans-serif;
+  width: var(--picture-width);
+  left: calc((100vw - var(--picture-width)) / 2);
+  top: calc((var(--align-top) - var(--basic-size)) / 2);
+  line-height: 1;
+}
+
+.page-item .subtitle {
+  position: fixed;
+  font-size: var(--nav-width);
+  writing-mode: vertical-rl;
+  font-family: Roboto, sans-serif;
+  right: calc((100vw - var(--picture-width)) / 4 - (var(--nav-width) / 2));
+  top: calc(var(--align-top) + 6 * var(--nav-width));
+  line-height: 1;
+}

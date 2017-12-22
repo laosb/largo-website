@@ -1,0 +1,14 @@
+body { transition: .3s all ease; }
+
+.in-light { background: #fff; }
+.in-dark { background: #000; }
+
+.in-light .main-nav a,
+.in-light .page-item{
+  color: #000;
+}
+
+.in-dark .main-nav a,
+.in-dark .page-item{
+  color: #fff;
+}

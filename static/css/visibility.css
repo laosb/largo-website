@@ -1,0 +1,17 @@
+.page-item .title,
+.page-item .subtitle,
+.page-item .avatar {
+  transition: all .3 ease;
+}
+
+.page-item:not(#page-active) .title,
+.page-item:not(#page-active) .subtitle,
+.page-item:not(#page-active) .avatar {
+  opacity: 0;
+}
+
+.page-item#page-active .title,
+.page-item#page-active .subtitle,
+.page-item#page-active .avatar {
+  opacity: 1;
+}

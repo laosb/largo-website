@@ -1,0 +1,22 @@
+.main-nav {
+  position: fixed;
+  display: inline-block;
+  right: calc((100vw - var(--picture-width)) / 4 - (var(--nav-width) / 2));
+  top: var(--align-top);
+  width: var(--nav-width);
+}
+
+.main-nav a {
+  font-family: PingFangSC-Ultralight, PingFangSC, PingFang, sans-serif;
+  font-weight: light;
+  display: block;
+  font-size: calc(var(--nav-width) / 2);
+  line-height: 1;
+  margin-bottom: 2em;
+  text-decoration: none;
+  letter-spacing: 0;
+}
+
+.main-nav a.nav-active {
+  font-weight: bold;
+}
